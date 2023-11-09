@@ -8,7 +8,7 @@ class EcuacionCuadratica:
 
     def calcular_x(self):
         # Calcula el discriminante
-        discriminante = self.b ** 2 - 4 * self.a * self.c
+        discriminante = self.HallarDiscriminante()
 
         if discriminante < 0:
             return None  # CASO 3
@@ -20,6 +20,11 @@ class EcuacionCuadratica:
             x1 = (-self.b + math.sqrt(discriminante)) / (2 * self.a)
             x2 = (-self.b - math.sqrt(discriminante)) / (2 * self.a)
             return x1, x2
+
+    def HallarDiscriminante(self):
+        discriminante = self.b ** 2 - 4 * self.a * self.c
+        return discriminante
+
 
 
 
