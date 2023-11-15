@@ -11,9 +11,10 @@ class EcuacionCuadratica:
         self.b = b
         self.c = c
         self.lista = [a, b, c]
-        self.validarNumeros()
+
 
     def calcular_x(self):
+        self.validarNumeros()
         # Calcula el discriminante
         discriminante = self.HallarDiscriminante()
 
