@@ -15,3 +15,5 @@
 - Torre Medina Raul Alejandro
 
 ## Diagrama HIPO
+
+![DIAGRAMA HIPO](https://github.com/UnGianPiere/ProgramacionPorPares/blob/master/DIagrama_HIPO/Diagrama_HIPO.png)
